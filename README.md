@@ -1,4 +1,4 @@
-# Spark Word Count Sample with Swift in Java 
+# Spark Word Count Sample with Amazon S3 in Java 
 This java program reads a text file from Amazon S3 storage and 
 counts the repetition of words by using Spark compute engine.
 
