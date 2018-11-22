@@ -27,3 +27,5 @@ $ ovh-spark-submit \
 --total-executor-cores 4 \
 sparkwordcount-1.0-SNAPSHOT-fat.jar
 ```
+
+For running this jar file by using ovh-spark-submit in a cluster of spark, you need to use fat jar file (the jar file that has -fat at the end of the name), because all dependencies should be included in the jar file.
